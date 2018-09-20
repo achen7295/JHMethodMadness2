@@ -32,5 +32,12 @@ public class JHanlib { // String method #1
             System.out.println(i * base);
         }
     }
+    public static String cutOut(String str, String rep) { // String #3
+        String x = "";
+        if (str.indexOf(rep) >= 0) {
+            x = str.substring(0,str.indexOf(rep)) + str.substring(str.indexOf(rep)+rep.length(),str.length());
+        }
+        return x;
+    }
 }
 
