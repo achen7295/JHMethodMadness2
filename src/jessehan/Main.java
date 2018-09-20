@@ -2,8 +2,7 @@ package jessehan;
 
 public class Main {
     public static void main(String[] args) {
-	    //System.out.println()
-	            JHanlib.multiplicationTable(8, 3);
+	    System.out.println(JHanlib.cutOut("crabapple apple", "apple"));
     }
 }
 /*
@@ -26,5 +25,10 @@ sumUpTo();
 multiplicationTable();
 5, 4 -> 0, 5, 10, 15
 8, 3 -> 0, 8, 16
+
+cutOut();
+"nut", "case" -> "nut"
+"crabapple apple", "apple" -> "crab apple"
+
 
  */
