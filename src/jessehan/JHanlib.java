@@ -20,5 +20,17 @@ public class JHanlib { // String method #1
        }
        return reformattedDate;
     }
+    public static int sumUpTo(int num) { // Math #1
+        int output = 0;
+        for (int i = 0; i <= num; i ++) {
+            output += i;
+        }
+        return output;
+    }
+    public static void multiplicationTable(int base, int range) { // Math #2
+        for (int i = 0; i < range; i ++) {
+            System.out.println(i * base);
+        }
+    }
 }
 
