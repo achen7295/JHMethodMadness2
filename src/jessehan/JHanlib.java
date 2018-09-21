@@ -51,7 +51,7 @@ public class JHanlib { // String method #1
         return x;
     }
     //=================================================================================================================
-    public static int leastCommonMultiple(int a, int b, int c) {
+    public static int leastCommonMultiple(int a, int b, int c) { // Extra credit LCM
         int max = 0; int med = 0; int min = 0; int output = 0;
         if (a > b && a > c) {max = a; med = Math.max(b,c); min = Math.min(b,c);}
         if (b > a && b > c) {max = b; med = Math.max(a,c); min = Math.min(a,c);}
