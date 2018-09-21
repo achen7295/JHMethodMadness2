@@ -2,8 +2,12 @@ package jessehan;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(JHanlib.leastCommonMultiple(3, 15, 2));
-        // JHanlib.multiplicationTable(5, 6);
+        // System.out.println(JHanlib.isPalindrome(str));
+        // System.out.println(JHanlib.dateStr(str));
+        // System.out.println(JHanlib.sumUpTo(num));
+        // JHanlib.multiplicationTable(base, range);
+        // System.out.println(JHanlib.cutOut(str, rep);
+        // System.out.println(JHanlib.leastCommonMultiple(a, b, c));
     }
 }
 /*
