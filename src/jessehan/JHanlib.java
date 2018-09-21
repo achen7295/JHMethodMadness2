@@ -1,5 +1,5 @@
 package jessehan;
-
+// created by Jesse Han. No stealing or I steal your soul.
 public class JHanlib { // String method #1
     public static boolean isPalindrome(String str) {
         boolean palindrome = true;
