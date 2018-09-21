@@ -57,17 +57,20 @@ public class JHanlib { // String method #1
         if (b > a && b > c) {max = b; med = Math.max(a,c); min = Math.min(a,c);}
         if (c > a && c > b) {max = c; med = Math.max(a,b); min = Math.min(a,b);}
         if (a == b && b == c) {max = a; med = a; min = a;}
-        boolean foundLCM = false;
-        /*
-        This "for" loop checks for every multiple of the maximum number, and if it is also a multiple of both the other
-        numbers, then ends the loop when it finds it, returning that number.
-         */
-        for (int i = 1; !foundLCM; i ++) {
-            if (((max * i) % med) == 0 && ((max * i) % min) == 0) {
-                output = max * i;
-                foundLCM = true;
+        if (min != 0) {
+            boolean foundLCM = false;
+            /*
+            This "for" loop checks for every multiple of the maximum number, and if it is also a multiple of both the other
+            numbers, then ends the loop when it finds it, returning that number.
+             */
+            for (int i = 1; !foundLCM; i ++) {
+                if (((max * i) % med) == 0 && ((max * i) % min) == 0) {
+                    output = max * i;
+                    foundLCM = true;
+                }
             }
         }
+        else output = 0;
         return output;
     }
 }
