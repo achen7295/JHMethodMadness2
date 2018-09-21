@@ -1,5 +1,5 @@
 package jessehan;
-
+// created by Jesse Han. No stealing or I steal your soul.
 public class Main {
     public static void main(String[] args) {
         // System.out.println(JHanlib.isPalindrome(str));
