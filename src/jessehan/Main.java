@@ -2,7 +2,8 @@ package jessehan;
 
 public class Main {
     public static void main(String[] args) {
-	    System.out.println(JHanlib.cutOut("crabapple apple", "apple"));
+        System.out.println(JHanlib.leastCommonMultiple(3, 15, 2));
+        // JHanlib.multiplicationTable(5, 6);
     }
 }
 /*
@@ -29,6 +30,12 @@ multiplicationTable();
 cutOut();
 "nut", "case" -> "nut"
 "crabapple apple", "apple" -> "crab apple"
+
+leastCommonMultiple();
+2, 3, 4 -> 12
+15, 5, 30 -> 30
+2, 2, 0 -> 0
+3, 15, 2 -> 30
 
 
  */
